@@ -1,7 +1,5 @@
 # GitDemo Repo
-
 This is a sample repository for the Git course.
-
 
 
 \## How To Work With Git
@@ -13,6 +11,7 @@ This is a sample repository for the Git course.
 5. git commit
 6. git checkout main
 7. git pull
+<<<<<<< HEAD
 8. git checkout bug-oo-branch-name
 9. git merge main
 10. git checkout main
@@ -20,6 +19,15 @@ This is a sample repository for the Git course.
 12. git pul
 13. git push
 14. git branch .d bug-00-branch-name
+=======
+8. git checkout bug-00-branch-name
+9. git merge main
+10. git checkout main
+11. git merge bug-00-branch-name
+12. git pull
+13. git push
+14. git branch -d bug-00-branch-name
+>>>>>>> main
 
 
 
